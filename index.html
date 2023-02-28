@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="icon" type="image/x-icon" href="https://www.w3schools.com//images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/estilos.css">
+   
+</head>
+
+   
+    <header>
+        <div>
+        <h2 id="nombre">Maria Becerra</h2> 
+        <h2 id="especialidad"> Nutricionista</h2> 
+        </div>
+    </header>
+    <body>
+        <div class="columna1">
+            <div class="img1">
+        <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="Imagen de perfil" height="175" width="175" 
+        style="box-shadow: 10px 10px 10px 0 rgb(10, 10, 10)">
+    </div>
+    <h2 class="caracteristicas"> Perfil </h2>
+    <ul class="nacionalidad">
+        <li class="lin1">Edad: 30 años</li>
+        <li class="lin1">Fecha de nacimiento:</li>
+        <li class="lin1"> 17/09/1992</li>
+        <li class="lin1">Nacionalidad: Argentina</li>
+    </ul>
+   
+    
+<h3 class="caracteristicas">Contacto</h3>
+    <ul class="pepito"> 
+        <li class="lin1">ceciliamartinez@gmail.com </li>
+        <li class="lin1">(011)2563-7987</li>
+        <li class="lin1">San Francisco </li>
+        <li class="lin1">123-Merlo </li>
+    </ul>
+
+   
+    <h3 class="caracteristicas">Idiomas</h3>
+    <ul>
+        <li class="lin1">ingles C1</li>
+        <li class="lin1"> Frances B2</li>
+    </ul> 
+        </div>
+        <div class="columna2">
+            <h3 id="datos">Educacion</h3>
+            <ul>
+                <li >Escuela secundaria Santo domingo</li> 
+                <li > Universidad Nacional de la Matanza: Licenciatura en nutricion</li>  </ul>
+        
+            
+            <h3 id="datos">Habilidades</h3>
+            <ul>
+                <li >Trabajo en equipo</li>
+                <li >Comunicación efectiva</li>
+                <li >Resolucion de problemas </li> 
+                <li >Plan de nutricion para cada paciente</li>
+                <li >Atencion personalizada</li>
+            </ul>
+            <h2 id="datos"> Cursos adicionales</h2>
+            <ul>
+                <li> Curso de alergias e intolerancia Alimentaria- Instituto de nutricion y salud.</li>
+                <li>Curso de  Nutricion y Dietetica aplicada al deporte- Instituto de Salud y Deporte</li>
+            </ul>
+            <div class="buba">
+            <button id=but1 onclick=menu()> Experiencia laboral </button>
+        </div>
+            <div class="selec desaparece">
+            <h2 id="lab">Nutricionista en Clinica de salud del Deporte</h2>
+                <ul>
+                <h4> 04/2012- 02/2017</h4>   
+                <li>Elaboracion de dietas personalisadas y dietas especiales para mejorar el rendimiento deportivo</li>
+                <li>Consultas periodicas de deportistas</li>
+                <li>Evaluacion del gasto energetico y las necesidades nutricionales de cada paciente</li>
+                </ul>
+            <h2 id="lab">Nutricionista Clinica Modelo</h2> 
+                <ul>
+                <h4>07/2017- 02/2022</h4>
+                <li> Evaluacion de condicion fisica , las preferencias y posibles contraindicaciones de los clientres</li>
+                <li>Capaz de seleccionar alimentos adecuados para cada paciente de acuerdo a su situacion econonica</li>
+                </ul>
+                </div>
+        <footer>
+           
+        </footer>
+    
+</div>
+<script>
+    function menu(){
+            let men=document.getElementsByClassName('selec');
+            for(var i=0; i < men.length; i+=1){
+            men[i].classList.toggle('desaparece')
+            }}
+</script>
+</html>
